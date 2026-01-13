@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Kaltwasser - Digital Marketing Strategist & SEO Consultant</title>
+    <meta name="description" content="Digital Marketing Strategist & SEO Consultant. Strategische Sichtbarkeit auf Google, ChatGPT und AI-Search.">
+    <link rel="icon" href="https://app.trickle.so/storage/public/images/usr_1a0d528af8000001/04a99ba5-fb3b-4c0b-a6ae-d59560e1bebc.Untitled" />
+    
+    <!-- React & Babel -->
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #F28C28; /* Orange */
+            --secondary-color: #1F3B4D; /* Dark Petrol/Blue */
+            --bg-color: #ffffff;
+            --text-main: #111827;
+            --text-muted: #4B5563;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-color);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    }
+    
+    @layer utilities {
+        .container-custom {
+            @apply max-w-[1140px] mx-auto px-6 sm:px-8; /* Clearscope uses a contained width, often around 1100-1200px */
+        }
+        
+        /* Typography adjustments for Clearscope feel */
+        .h1-display {
+            @apply text-5xl md:text-6xl lg:text-[4rem] font-bold tracking-tight leading-[1.05];
+        }
+        .h2-display {
+            @apply text-3xl md:text-4xl font-bold tracking-tight leading-tight;
+        }
+        .text-body-lg {
+            @apply text-lg md:text-xl text-gray-600 leading-relaxed;
+        }
+
+        /* Marquee Animation */
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-scroll {
+            animation: scroll 40s linear infinite; /* Slower for more elegance */
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Scripts -->
+    <script type="text/babel" src="utils/translations.js"></script>
+    <script type="text/babel" src="components/LanguageSwitch.js"></script>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Context.js"></script>
+    <script type="text/babel" src="components/LogoMarquee.js"></script>
+    <script type="text/babel" src="components/Profile.js"></script>
+    <script type="text/babel" src="components/Collaboration.js"></script>
+    <script type="text/babel" src="components/UseCases.js"></script>
+    <script type="text/babel" src="components/TargetAudience.js"></script>
+    <script type="text/babel" src="components/Statement.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>

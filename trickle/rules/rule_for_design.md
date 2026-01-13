@@ -1,0 +1,23 @@
+When designing
+- **Goal**: Position Martin Kaltwasser as a Digital Marketing Strategist & SEO Consultant (Competence, Trust, Closeness).
+- **Style**: Calm, clear, confident, editorial. No buzzwords, no "agency fluff".
+- **Layout**: 
+  - **Mobile First**: Vertical flow, immediate personal connection (Photo top).
+  - **Desktop**: Generous whitespace, clear section separation.
+  - **Hierarchy**: Text leads, design supports. No visual noise.
+- **Typography**: 
+  - Max 2 fonts.
+  - Clear hierarchy: Hero > Section Headline > Body.
+  - Legibility > Effects.
+- **Colors**: 
+  - Primary: #F28C28 (Orange) - used for Primary CTA and accents.
+  - Secondary: #0A66C2 (LinkedIn Blue) - used for LinkedIn button hover.
+  - Text: Dark Gray (#111827) for headings, Medium Gray (#4B5563) for body.
+- **Components**:
+  - **Hero**: Personal photo mandatory. Variant: Split (Desktop) / Stacked (Mobile).
+  - **CTAs**: Primary (Orange), Secondary (White/LinkedIn Blue).
+  - **Profile**: Integrated text flow, no separate boxes.
+  - **Use Cases**: Grid of equal items, calm presentation.
+- **Content**:
+  - Follow the specific 9-section structure from the briefing.
+  - Address the reader directly ("Du", "Sie" implies professional distance but accessible tone - standardizing on the briefing's "Du" or neutral "Ich"-form as per text provided).
